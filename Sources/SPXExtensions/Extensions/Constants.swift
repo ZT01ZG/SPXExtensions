@@ -8,7 +8,7 @@
 
 import UIKit
 
-open struct MSXColors {
+public struct MSXColors {
 	static let overallAmbientColor = UIColor(hex: 0x6C6E70)
 	// Oranges
 	static let highlightColorLight = UIColor(hex: 0xF0AB00)
@@ -21,13 +21,13 @@ open struct MSXColors {
 	static let darkestAmbientColor = UIColor(hex: 0x121212)
 }
 
-open struct SPXColors {
+public struct SPXColors {
 	static let CGPGrey = UIColor(hex: 0x565554)
 	static let KeyLimePie = UIColor(hex: 0xC5FE01)
 	static let seanDarkGrey = UIColor(red: 60/255, green: 60/255, blue: 60/255, alpha: 1)
 }
 
-open struct Primaries {
+public struct Primaries {
 	static let NavyBlue = UIColor(hex: 0x1d3557)
 	static let SkyBlue = UIColor(hex: 0x457b9d)
 	static let PowderBlue = UIColor(hex: 0xa8dadc)
@@ -36,7 +36,7 @@ open struct Primaries {
 }
 
 
-open struct Fonts {
+public struct Fonts {
 	static let avenirNextMedium = "AvenirNext-Medium"
 	static let avenirNextMediumItalic = "AvenirNext-MediumItalic"
 	static let avenirNextBold = "AvenirNext-Bold"
@@ -44,6 +44,6 @@ open struct Fonts {
 	static let futuraMedCondensed = "Futura-CondensedMedium"
 }
 
-open struct AppConstants {
+public struct AppConstants {
 	static let appName: String = "InDebted"
 }
